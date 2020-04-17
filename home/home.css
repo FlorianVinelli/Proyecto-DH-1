@@ -1,0 +1,13 @@
+ul.header {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-around;
+    list-style: none;
+    background-color: red;
+    margin: 0;
+    padding: 20px;
+}
+ .logo{
+    width: 70%;
+
+ }
