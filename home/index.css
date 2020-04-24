@@ -25,7 +25,6 @@ header ul a{
     padding-top: 30px;
 }
 
-<<<<<<< HEAD
  footer {
      display: grid;
      grid-template-columns: 35% 55%;
@@ -44,10 +43,10 @@ header ul a{
 
 .theWeekend img{
     width: 30%;
-    border-radius: 50%;
-=======
+    border-radius: 50%
+}
+
 .top-tracks {
->>>>>>> b3b595a2cbec6dcc6c8e091c6296ca99eb449b7e
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: larger;
@@ -69,11 +68,8 @@ header ul a{
 
 
 
-<<<<<<< HEAD
-=======
 .lialbums {
     padding-top: 30px;
     list-style: none;
     text-align: center;
 }
->>>>>>> 026b2bc8bc8eb5de9c08a09fc6c834f0704c7d5b
