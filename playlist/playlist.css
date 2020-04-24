@@ -27,6 +27,7 @@ header ul a{
 
  
 
-footer img{
-    width: 30%;
+footer {
+    display: grid;
+    grid-template-columns: 35% 55%;
 }
