@@ -25,7 +25,10 @@ header ul a{
     padding-top: 30px;
 }
 
- 
+ footer {
+     display: grid;
+     grid-template-columns: 40% 60%;
+ }
 
 
 
