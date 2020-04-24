@@ -25,12 +25,6 @@ header ul a{
     padding-top: 30px;
 }
 
-.canciones {
-    width: 70%;
-    padding: 10%;
-    
-}
-
 .top-tracks {
     text-align: center;
     font-family: 'Teko', sans-serif;
@@ -41,4 +35,15 @@ header ul a{
     text-decoration: none;
     list-style: none;
     text-align: center;
+    padding-left: 0%;
 }
+
+.canciones {
+    width: 70%;
+    padding: 10%;
+    margin: auto;
+    display: block;
+}
+
+
+
