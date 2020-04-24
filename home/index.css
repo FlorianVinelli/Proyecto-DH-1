@@ -32,7 +32,7 @@ header ul a{
 .lista-canciones {
     display: grid;
     width: 95%; 
-    height: 300%;
+    height: 150%;
     grid-template-columns: repeat(4,25%);
     grid-template-rows: repeat(3,25%);
     justify-content: space-between 50px;   
