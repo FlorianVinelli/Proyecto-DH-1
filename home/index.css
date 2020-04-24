@@ -25,6 +25,7 @@ header ul a{
     padding-top: 30px;
 }
 
+<<<<<<< HEAD
  footer {
      display: grid;
      grid-template-columns: 35% 55%;
@@ -44,37 +45,35 @@ header ul a{
 .theWeekend img{
     width: 30%;
     border-radius: 50%;
+=======
+.top-tracks {
+>>>>>>> b3b595a2cbec6dcc6c8e091c6296ca99eb449b7e
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: larger;
+}
+
+.lista-canciones {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+}
+
+.canciones {
+    width: 70%;
+    padding: 10%;
+    margin: auto;
     display: block;
-   
 }
 
-.1 {
-    grid-column: 2/3;
-}
 
-.2 {
-    grid-column: 1/2;
-}
 
-.3 {
-
-}
-
-.lista-albums {
-    display: grid;
-    width: 90%;
-    grid-template-columns: 100% ;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: space-around;
-}
-
-.imagenes-albums{
-    width: 90%;
-}
-
+<<<<<<< HEAD
+=======
 .lialbums {
     padding-top: 30px;
     list-style: none;
     text-align: center;
 }
+>>>>>>> 026b2bc8bc8eb5de9c08a09fc6c834f0704c7d5b
