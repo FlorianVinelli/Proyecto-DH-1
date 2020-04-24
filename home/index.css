@@ -23,8 +23,8 @@ header ul a{
     padding-top: 30px;
  }
 
-footer img{
-    width: 30%;
+ footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
  }
-
-
