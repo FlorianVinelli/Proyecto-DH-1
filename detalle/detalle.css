@@ -1,21 +1,23 @@
 ul.header{
-    display: grid;
-    grid-template-columns:  30% 30% 30%;
-    justify-content: space-between;
     list-style: none;
-    font-size: 20px;    
-    padding-left: 20px;
+    font-size: 15px;    
     margin-bottom: 115px;
+    padding-left: 0em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 header ul li img{
     opacity: 0.3;
-    width: 60%;
+    width: 15%;
     align-content: center;
+    margin-bottom: 20px;
 }
-    
 
+header ul a li{
+    margin-bottom: 10px;
+}
+   
 
 header ul a{
     color: black;
@@ -23,6 +25,8 @@ header ul a{
     padding-top: 30px;
 }
 
- footer img{
+ 
+
+footer img{
     width: 30%;
 }
