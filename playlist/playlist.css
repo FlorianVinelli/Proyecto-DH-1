@@ -30,3 +30,20 @@ header ul a{
 footer img{
     width: 30%;
 }
+
+main ul li{
+    list-style-type: none;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 10% 60%;
+    justify-content: space-around;   
+    margin-bottom: 10px;
+}
+
+main ul{
+    padding-inline-start: 0;
+}
+
+main ul li img{
+    width: 100%;
+}
