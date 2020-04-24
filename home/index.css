@@ -25,10 +25,9 @@ header ul a{
     padding-top: 30px;
 }
 
-<<<<<<< HEAD
  footer {
      display: grid;
-     grid-template-columns: 35% 55%;
+     grid-template-columns: 40% 60%;
  }
 
 
@@ -42,92 +41,29 @@ header ul a{
     justify-content: space-between 50px;   
 }
 
-.theWeekend{
-    display: grid;
-    width: 90%;
-    grid-template-columns: 100% ;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-around;   
-    text-align: center;
-}
-
 .theWeekend img{
-    width: 70%;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-.duaLipa{
     width: 30%;
     border-radius: 50%;
-<<<<<<< HEAD
+    text-align: center;
+    display: block;
+   
+}
+
+
+.lista-albums {
     display: grid;
     width: 90%;
     grid-template-columns: 100% ;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-around;   
-    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
 }
 
-.duaLipa img{
-    width: 70%;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-.justinBieber{
-    width: 30%;
-    border-radius: 50%;
-    display: grid;
+.imagenes-albums{
     width: 90%;
-    grid-template-columns: 100% ;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-around;   
-    text-align: center;
 }
 
-.justinBieber img{
-    width: 70%;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-.1 {
-    grid-column: 2/3;
-=======
-=======
-.top-tracks {
->>>>>>> b3b595a2cbec6dcc6c8e091c6296ca99eb449b7e
-    text-align: center;
-    font-family: 'Teko', sans-serif;
-    font-size: larger;
->>>>>>> c01458370ce41e1a5c3abce68d7d2039d4e1d085
-}
-
-.lista-canciones {
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    padding-left: 0%;
-}
-
-.canciones {
-    width: 70%;
-    padding: 10%;
-    margin: auto;
-    display: block;
-}
-
-
-
-<<<<<<< HEAD
-=======
 .lialbums {
     padding-top: 30px;
     list-style: none;
     text-align: center;
 }
->>>>>>> 026b2bc8bc8eb5de9c08a09fc6c834f0704c7d5b
