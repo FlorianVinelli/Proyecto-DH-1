@@ -37,7 +37,7 @@ header ul a{
     font-size: larger;
 }
 
-li {
+.lista-canciones {
     text-decoration: none;
     list-style: none;
     text-align: center;
