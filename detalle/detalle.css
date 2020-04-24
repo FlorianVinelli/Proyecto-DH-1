@@ -27,6 +27,18 @@ header ul a{
 
  
 
-footer img{
-    width: 30%;
+footer {
+    display: grid;
+    grid-template-columns: 35% 55%;
+}
+
+.img-add-to-playlist {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.imgblindinglights {
+    display: block;
+    margin: auto;
 }
