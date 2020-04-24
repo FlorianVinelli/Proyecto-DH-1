@@ -67,3 +67,23 @@ header ul a{
     list-style: none;
     text-align: center;
 }
+
+.top-tracks {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: larger;
+}
+
+.lista-canciones {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+}
+
+.canciones {
+    width: 70%;
+    padding: 10%;
+    margin: auto;
+    display: block;
+}
