@@ -49,3 +49,20 @@ header ul a{
 .3 {
 
 }
+
+.lista-albums {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 100% ;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.imagenes-albums{
+    width: 90%;
+}
+
+.lialbums {
+    padding-top: 30px;
+    list-style: none;
+}
