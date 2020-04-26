@@ -41,12 +41,43 @@ header ul a{
     justify-content: space-between 50px;   
 }
 
+
 .theWeekend img{
     width: 30%;
     border-radius: 50%;
     text-align: center;
     display: block;
-   
+    margin-bottom: 10px;
+}
+
+
+.justinBieber img{
+    width: 30%;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.duaLipa img{
+    width: 30%;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.topArtistas{
+    padding-inline-start: 0px;
+    padding-left: 150px;
+}
+
+.topArtistas li{
+    padding-bottom: 50px;
+}
+
+.top3{
+    margin-top: 50px;
 }
 
 
