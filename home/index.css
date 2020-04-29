@@ -8,7 +8,6 @@ ul.header{
 }
 
 header ul li img{
-    opacity: 0.3;
     width: 15%;
     align-content: center;
     margin-bottom: 20px;
@@ -25,6 +24,11 @@ header ul a{
     padding-top: 30px;
 }
 
+body{
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
  footer {
      display: grid;
      grid-template-columns: 40% 60%;
@@ -34,25 +38,37 @@ header ul a{
 
 .lista-canciones {
     display: grid;
-    width: 95%; 
-    height: 300%;
-    grid-template-columns: repeat(4,25%);
-    grid-template-rows: repeat(3,25%);
-    justify-content: space-between 50px;   
+    width: 80%;
+    grid-template-columns: 100% ;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding-inline-start: 25px;
+    font-size: 25px;    
+}
+
+.lista-canciones li{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.lista-canciones img{
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 
 .theWeekend img{
-    width: 30%;
+    width: 50%;
     border-radius: 50%;
-    text-align: center;
+    align-content: center;
     display: block;
     margin-bottom: 10px;
 }
 
 
 .justinBieber img{
-    width: 30%;
+    width: 50%;
     border-radius: 50%;
     text-align: center;
     display: block;
@@ -60,7 +76,7 @@ header ul a{
 }
 
 .duaLipa img{
-    width: 30%;
+    width: 50%;
     border-radius: 50%;
     text-align: center;
     display: block;
@@ -69,7 +85,11 @@ header ul a{
 
 .topArtistas{
     padding-inline-start: 0px;
-    padding-left: 150px;
+    text-align: center;
+}
+
+.topArtistas img{
+    margin-left: 90px;
 }
 
 .topArtistas li{
@@ -83,10 +103,12 @@ header ul a{
 
 .lista-albums {
     display: grid;
-    width: 90%;
+    width: 80%;
     grid-template-columns: 100% ;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: space-around;
+    padding-inline-start: 25px;
+    font-size: 25px;
 }
 
 .imagenes-albums{
@@ -105,11 +127,9 @@ header ul a{
     font-size: larger;
 }
 
-.lista-canciones {
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    padding-left: 0%;
+
+ol li.lista-canciones{
+    margin-bottom: 30px;
 }
 
 .canciones {
