@@ -180,6 +180,7 @@ a {
     .lista-albums{
         display: grid;
         grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 1fr;
         justify-content: space-around;
         list-style: none;
         margin: auto;
