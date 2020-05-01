@@ -170,6 +170,40 @@ ol li.lista-canciones{
         font-size: 20px;
     }
 
-    
+    .lista-albums{
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .lista-albums img{
+        margin-left: 65px;
+    }
+
+    .top3album{
+        font-size: 20px;
+    }
+
+    .lialbums img{
+        text-align: auto;
+    }
+
+    .lista-canciones{
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .lista-canciones img{
+        margin-left: 65px;
+    }
+
+    .top3canciones{
+        font-size: 20px;
+    }
+
+
 
 }
