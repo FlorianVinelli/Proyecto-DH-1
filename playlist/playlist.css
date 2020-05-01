@@ -52,3 +52,29 @@ main ul{
 main ul li img{
     width: 100%;
 }
+
+@media (min-width: 600px){
+    ul.header{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15%;
+        justify-content: space-between;
+    }
+
+    header ul li img{
+        width: 75%;
+    }
+
+    header ul a li{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    main ul li{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    main ul li .playlist{
+        padding-top: 50px;
+    }
+}

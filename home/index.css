@@ -138,3 +138,38 @@ ol li.lista-canciones{
     margin: auto;
     display: block;
 }
+
+@media (min-width: 600px){
+    ul.header{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15%;
+        justify-content: space-between;
+    }
+
+    header ul li img{
+        width: 75%;
+    }
+
+    header ul a li{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .topArtistas{
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .topArtistas img{
+        margin-left: 65px;
+    }
+
+    .top3{
+        font-size: 20px;
+    }
+
+    
+
+}
