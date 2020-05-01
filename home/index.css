@@ -44,6 +44,7 @@ body{
     justify-content: space-around;
     padding-inline-start: 25px;
     font-size: 25px;    
+    list-style-type: none;
 }
 
 .lista-canciones li{
@@ -137,6 +138,12 @@ ol li.lista-canciones{
     padding: 10%;
     margin: auto;
     display: block;
+}
+
+a {
+    text-decoration: none;
+    ;
+    color: black;
 }
 
 @media (min-width: 600px){
