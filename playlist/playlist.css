@@ -77,4 +77,17 @@ main ul li img{
     main ul li .playlist{
         padding-top: 50px;
     }
+
+    .homefooter{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-between;
+        width: 30%;
+        margin-left: 950px
+    }
+
+    .homefooter img{
+        width: 80%;
+        padding-left: 20px;
+    }
 }

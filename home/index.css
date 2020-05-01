@@ -179,15 +179,17 @@ a {
 
     .lista-albums{
         display: grid;
-        grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 1fr;
-        justify-content: space-around;
+        grid-template-columns: 20% 20% 20%;
+        justify-content: space-between;
         list-style: none;
-        margin: auto;
+        grid-template-rows: none;
+        width: 100%;
+        padding-inline-start: 0;
+        
     }
 
     .lista-albums img{
-        margin-left: 65px;
+        margin-left: 0px;
     }
 
     .top3album{
@@ -217,6 +219,19 @@ a {
         margin-left: 0;
     }
 
+    .homefooter{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-between;
+        width: 30%;
+        margin-left: 950px
+    }
+
+    .homefooter img{
+        width: 80%;
+        padding-left: 20px;
+    }
+ 
     
 
 }
