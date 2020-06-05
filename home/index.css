@@ -7,6 +7,10 @@ ul.header{
     text-align: center;
 }
 
+body{
+    background-image: url(../img/background\ image.jpg);
+    color: white;
+}
 header ul li img{
     width: 15%;
     align-content: center;
@@ -19,7 +23,7 @@ header ul a li{
    
 
 header ul a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding-top: 30px;
 }
@@ -143,7 +147,7 @@ ol li.lista-canciones{
 a {
     text-decoration: none;
     ;
-    color: black;
+    color: white;
 }
 
 @media (min-width: 600px){
