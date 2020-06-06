@@ -1,3 +1,15 @@
+body{
+   background-image: url(../img/background\ image.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+/* HEADER */
+
 ul.header{
     list-style: none;
     font-size: 15px;    
@@ -7,10 +19,6 @@ ul.header{
     text-align: center;
 }
 
-body{
-    background-image: url(../img/background\ image.jpg);
-    color: white;
-}
 header ul li img{
     width: 15%;
     align-content: center;
@@ -28,17 +36,16 @@ header ul a{
     padding-top: 30px;
 }
 
-body{
-    background-color: grey;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+
+
+/* FOOTER */
 
  footer {
      display: grid;
      grid-template-columns: 40% 60%;
  }
 
-
+/* TOP TRACKS DEL MOMENTO */
 
 .lista-canciones {
     display: grid;
@@ -49,6 +56,7 @@ body{
     padding-inline-start: 25px;
     font-size: 25px;    
     list-style-type: none;
+    
 }
 
 .lista-canciones li{
@@ -62,6 +70,18 @@ body{
     margin-left: 40px;
 }
 
+ol li.lista-canciones{
+    margin-bottom: 30px;
+}
+
+.canciones {
+    width: 70%;
+    padding: 10%;
+    margin: auto;
+    display: block;
+}
+
+/* TOP ARTISTAS */
 
 .theWeekend img{
     width: 50%;
@@ -105,6 +125,7 @@ body{
     margin-top: 50px;
 }
 
+/* TOP ALBUMS */
 
 .lista-albums {
     display: grid;
@@ -133,18 +154,7 @@ body{
 }
 
 
-ol li.lista-canciones{
-    margin-bottom: 30px;
-}
-
-.canciones {
-    width: 70%;
-    padding: 10%;
-    margin: auto;
-    display: block;
-}
-
-a {
+a{
     text-decoration: none;
     ;
     color: white;
