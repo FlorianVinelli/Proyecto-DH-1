@@ -49,9 +49,7 @@ window.addEventListener("load", function(){
                 
                 `
 
-                document.querySelector(".artista")
-
-                artist.style.fontStyle = "italic"
+                
 
                 document.querySelector(".lista-canciones").innerHTML += htmlNuevoTrack
 
