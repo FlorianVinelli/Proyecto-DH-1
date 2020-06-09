@@ -6,6 +6,7 @@ body{
 
 a{
     color: white;
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -81,49 +82,32 @@ ol li.lista-canciones{
     display: block;
 }
 
+.top3tracks {
+    font-size: 20px;
+}
+
 /* TOP ARTISTAS */
-
-.theWeekend img{
-    width: 50%;
-    border-radius: 50%;
-    align-content: center;
-    display: block;
-    margin-bottom: 10px;
-}
-
-
-.justinBieber img{
-    width: 50%;
-    border-radius: 50%;
-    text-align: center;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.duaLipa img{
-    width: 50%;
-    border-radius: 50%;
-    text-align: center;
-    display: block;
-    margin-bottom: 10px;
-}
 
 .topArtistas{
     padding-inline-start: 0px;
     text-align: center;
+    list-style: none;
+    margin-bottom: 30px;
 }
 
 .topArtistas img{
-    margin-left: 90px;
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 50%;
+    align-content: center;
+    display: block;
+    margin-bottom: 5px;
 }
 
-.topArtistas li{
-    padding-bottom: 50px;
+.top3artistas{
+    font-size: 20px;
 }
 
-.top3{
-    margin-top: 50px;
-}
 
 /* TOP ALBUMS */
 
@@ -147,18 +131,15 @@ ol li.lista-canciones{
     text-align: center;
 }
 
-.top-tracks {
-    text-align: center;
-    font-family: 'Teko', sans-serif;
-    font-size: larger;
+.top3albums{
+    font-size: 20px;
 }
 
+ 
 
-a{
-    text-decoration: none;
-    ;
-    color: white;
-}
+
+
+
 
 @media (min-width: 600px){
     ul.header{
