@@ -7,6 +7,7 @@ ul.header{
     text-align: center;
 }
 
+
 header ul li img{
     width: 15%;
     align-content: center;
@@ -25,7 +26,7 @@ header ul a{
 }
 
 body{
-    background-color: grey;
+    background-color: white;
 }
  
 
@@ -41,9 +42,12 @@ footer {
 }
 
 .imgblindinglights {
+    width: 50%;
+	margin: 0 auto;
+	margin-top: 30px;
     display: block;
-    margin: auto;
-}
+    border: 2px solid black;
+} 
 
 @media (min-width: 600px){
 
