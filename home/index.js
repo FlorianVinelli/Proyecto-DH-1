@@ -24,9 +24,26 @@ window.addEventListener("load", function(){
                 
                 
                 let htmlNuevoTrack = `
+
+                
+                    <li>
+                        <img class="lista-canciones" src="`+ album +`">
+                        <div class="uk-position-center uk-panel"">
+                            `+ title +`
+                            <br>
+                            <br>
+                            <p class="artista">
+                            ` + artist + `
+                            </p>
+                        </div>
+                  </li>
+                
+             
+                
+    
                  
 
-                   
+                    `/*
                     <a href="../detalle/detalle.html?idDeTrack=` + idTrack + `">
                     <li>     
                     
@@ -43,10 +60,10 @@ window.addEventListener("load", function(){
                     </li>
                     </a>
                     
-                    
+                    */
 
                 
-                `
+                
 
                 
 
