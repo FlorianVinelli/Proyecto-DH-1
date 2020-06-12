@@ -1,6 +1,6 @@
 /* TOP TRACKS */
 window.addEventListener("load", function(){
-    fetch (" https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+    fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
    
     .then(
         function(respuesta) {
@@ -12,24 +12,22 @@ window.addEventListener("load", function(){
         function (information) {
             
             let topTracks = information.tracks.data
-            console.log(topTracks)
+            
 
             for (let index = 0; index < topTracks.length; index++) {
                 const cadaTrack = topTracks[index];
                 
                 let title = cadaTrack.title
-                let id = cadaTrack.id
+                let idTrack = cadaTrack.id
                 let album = cadaTrack.album.cover
                 let artist = cadaTrack.artist.name
                 
-                console.log(title)
-                console.log(id)
-
+                
                 let htmlNuevoTrack = `
                  
 
                    
-                    <a href="../detalle/detalle.html?idDeTrack=` + id + `">
+                    <a href="../detalle/detalle.html?idDeTrack=` + idTrack + `">
                     <li>     
                     
                     <img class="lista-canciones" src="` + album + `">
@@ -55,7 +53,7 @@ window.addEventListener("load", function(){
                 document.querySelector(".lista-canciones").innerHTML += htmlNuevoTrack
 
 
-                console.log(htmlNuevoTrack)
+                
             }
         }
         
@@ -66,9 +64,8 @@ window.addEventListener("load", function(){
 
 /* TOP ARTISTS */
 
-/* TOP TRACKS */
 window.addEventListener("load", function(){
-    fetch (" https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+    fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
    
     .then(
         function(respuesta) {
@@ -80,23 +77,21 @@ window.addEventListener("load", function(){
         function (information) {
             
             let topArtists = information.artists.data
-            console.log(topArtists)
+            
 
             for (let index = 0; index < topArtists.length; index++) {
                 const cadaArtist = topArtists[index];
             
-                let id = cadaArtist.id
+                let idArtist = cadaArtist.id
                 let artist = cadaArtist.name
                 let artistImg = cadaArtist.picture_small
                 
-                console.log(artist)
-                console.log(id)
-
+                
                 let htmlNuevoArtist = `
 
-                <a href="../detalle/detalle.html?idDeTrack=` + id + `">
+                <a href="../detalle/detalle.html?idDeTrack=` + idArtist + `">
                     <li class="topArtistas"> 
-                        <img src="` + artistImg + `" alt="foto the weekend"> 
+                        <img src="` + artistImg + `" alt=""> 
                         ` + artist + `
                     </li>
                 </a>
@@ -111,7 +106,7 @@ window.addEventListener("load", function(){
                 document.querySelector(".topArtistas").innerHTML += htmlNuevoArtist
 
 
-                console.log(htmlNuevoArtist)
+               
             }
         }
     
@@ -120,8 +115,11 @@ window.addEventListener("load", function(){
         
 )   
 
+
+/* TOP ALBUMS */
+
 window.addEventListener("load", function(){
-    fetch (" https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+    fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
    
     .then(
         function(respuesta) {
@@ -133,43 +131,41 @@ window.addEventListener("load", function(){
         function (information) {
             
             let topAlbums = information.albums.data
-            console.log(topAlbums)
+            
 
-            for (let index = 0; index < topArtists.length; index++) {
+            for (let index = 0; index < topAlbums.length; index++) {
                 const cadaAlbum = topAlbums[index];
             
-                let id = cadaAlbum.id
-                let album = cadaAlbum.name
-                let albumImg = cadaAlbum.picture_small
+                let idAlbum = cadaAlbum.id
+                let album = cadaAlbum.title
+                let albumImg = cadaAlbum.cover
+        
+                let htmlNuevoAlbum = `
+
+                <a href="../detalle/detalle.html?idDeTrack=` + idAlbum + `">
                 
-                console.log(album)
-                console.log(id)
-
-                let htmlNuevoArtist = `
-
-                <a href="../detalle/detalle.html?idDeTrack=` + id + `">
-                    <li class="topArtistas"> 
-                        <img src="` + artistImg + `" alt="foto the weekend"> 
-                        ` + artist + `
+                    <li class="lialbums">
+                
+                        <img class="imagenes-albums" src="` + albumImg + `" alt="">
+                        
+                        ` + album + ` 
+                
                     </li>
+
                 </a>
                     
-                    
-
-                
                 `
-
-                
-
-                document.querySelector(".topArtistas").innerHTML += htmlNuevoArtist
+                document.querySelector(".lista-albums").innerHTML += htmlNuevoAlbum
 
 
-                console.log(htmlNuevoArtist)
+                console.log
             }
         }
     
     )}
 
         
-)   
+) 
+
+
 
