@@ -22,16 +22,18 @@ window.addEventListener("load", function() {
             for (let index = 0; index < cancionesPopulares.length; index++) {
                 const cadaCancion = cancionesPopulares[index];
                 
-                let img = cadaCancion.album.cover
+                let img = cadaCancion.album.cover_small
                 let title = cadaCancion.title;
                 let id = cadaCancion.id;
 
                 let htmlNuevaCancion = `
-                    <li class="amarillito">
-                        <a href="detalleGif.html?idDeGif=` + id + `">
-                            <h2>` + title + `</h2>
-                        </a>
+                    <li class="nuevaCancion">
+                        
                         <img src="` + img + `">
+
+                        <a href="detalle.html?idDeCancion=` + id + `">
+                            <p>` + title + `</p>
+                        </a>
                     </li>
                 `
                 

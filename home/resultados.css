@@ -1,0 +1,58 @@
+body{
+    background-image: url(../img/background\ image.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+ul.header{
+    list-style: none;
+    font-size: 15px;    
+    margin-bottom: 115px;
+    padding-left: 0em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+header ul li img{
+    width: 15%;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+header ul a li{
+    margin-bottom: 10px;
+}
+   
+
+header ul a{
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+/* BODY */
+
+.nuevaCancion{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 10% 60%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+     display: grid;
+     grid-template-columns: 40% 60%;
+ }

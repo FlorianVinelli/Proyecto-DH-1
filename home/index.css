@@ -43,7 +43,8 @@ header ul a{
 
  footer {
      display: grid;
-     grid-template-columns: 40% 60%;
+     grid-template-columns: 35% 55%;
+     justify-content: space-around;
  }
 
 /* TOP TRACKS DEL MOMENTO */
@@ -71,19 +72,13 @@ header ul a{
     margin-left: 40px;
 }
 
-ol li.lista-canciones{
-    margin-bottom: 30px;
-}
-
-.canciones {
-    width: 70%;
-    padding: 10%;
-    margin: auto;
-    display: block;
-}
-
 .top3tracks {
     font-size: 20px;
+}
+
+.artista{
+    font-style: italic;
+    margin-top: 0;
 }
 
 /* TOP ARTISTAS */
