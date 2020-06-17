@@ -28,7 +28,7 @@ header ul a{
 body{
     background-color: white;
 }
- 
+
 main h2 {
     text-align: center;
 }
@@ -43,20 +43,15 @@ footer {
     margin-top: 50px;
 }
 
-.img-add-to-playlist {
-    width: 60%;
-    display: block;
-    padding-top: 15px;
-    margin: auto;
+
+#foto-perfil {
+    width: 100%;
 }
 
-.theweeknd {
-    width: 100%;
-	margin: 0 auto;
-	margin-top: 30px;
-    display: block;
-    border: 2px solid black;
-} 
+main section article a {
+    font-size: medium;
+    color: black;
+}
 
 @media (min-width: 600px){
 
