@@ -29,15 +29,24 @@ body{
     background-color: white;
 }
  
+main h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
 
 footer {
     display: grid;
     grid-template-columns: 40% 60%;
+    margin-top: 50px;
 }
 
 .img-add-to-playlist {
     width: 60%;
     display: block;
+    padding-top: 15px;
     margin: auto;
 }
 

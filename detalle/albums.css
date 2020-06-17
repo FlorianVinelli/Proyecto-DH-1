@@ -1,3 +1,16 @@
+body{
+    background-color: #373434 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
 ul.header{
     list-style: none;
     font-size: 15px;    
@@ -6,7 +19,6 @@ ul.header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-
 
 header ul li img{
     width: 15%;
@@ -20,46 +32,66 @@ header ul a li{
    
 
 header ul a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding-top: 30px;
 }
 
-body{
-    background-color: white;
-}
- 
-main h2 {
-    text-align: center;
-}
 
-main p {
-    text-align: center;
-}
-
-footer {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 50px;
-}
-
-.img-add-to-playlist {
-    width: 60%;
+#foto-album {
+    width: 50%;
     display: block;
-    padding-top: 15px;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 45px;
 }
 
-.theweeknd {
-    width: 100%;
-	margin: 0 auto;
-	margin-top: 30px;
-    display: block;
-    border: 2px solid black;
-} 
+main article a {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+main article {
+    border-top: 1px solid white;    ;
+}
+
+.nombreAlbum {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+
+.trackName {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+ footer {
+     display: grid;
+     grid-template-columns: 35% 55%;
+     justify-content: space-around;
+ }
+
+
+
+
+
 
 @media (min-width: 600px){
-
     ul.header{
         display: grid;
         grid-template-columns: 15% 15% 15% 15%;
@@ -75,22 +107,19 @@ footer {
         font-size: 20px;
     }
 
-    .img-add-to-playlist{
-        width: 20%;
-    }
-
     .homefooter{
         display: grid;
         grid-template-columns: 45% 45%;
         justify-content: space-between;
         width: 30%;
-        margin-top: 60px;
         margin-left: 950px
-        
     }
 
     .homefooter img{
         width: 80%;
         padding-left: 20px;
     }
+ 
+    
+
 }

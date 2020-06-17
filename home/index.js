@@ -106,7 +106,7 @@ window.addEventListener("load", function(){
                 
                 let htmlNuevoArtist = `
 
-                <a href="../detalle/detalle.html?idDeTrack=` + idArtist + `">
+                <a href="../detalle/artista.html?idArtist=` + idArtist + `">
                     <li class="topArtistas"> 
                         <img src="` + artistImg + `" alt=""> 
                         ` + artist + `
@@ -159,7 +159,7 @@ window.addEventListener("load", function(){
         
                 let htmlNuevoAlbum = `
 
-                <a href="../detalle/detalle.html?idDeTrack=` + idAlbum + `">
+                <a href="../detalle/albums.html?idAlbums=` + idAlbum + `">
                 
                     <li class="lialbums">
                 
