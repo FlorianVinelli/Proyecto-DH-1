@@ -1,4 +1,3 @@
-/* BUSCADOR */
 
 window.addEventListener("load", function() {
     let queryString = new URLSearchParams(location.search)
@@ -18,6 +17,7 @@ window.addEventListener("load", function() {
             if (cancionesPopulares.length == 0) {
                 alert("No hay resultados");
             }
+
 
             for (let index = 0; index < cancionesPopulares.length; index++) {
                 const cadaCancion = cancionesPopulares[index];
