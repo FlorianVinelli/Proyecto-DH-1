@@ -1,82 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/a0c0bb4f74.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     <script src="index.js"></script>
     <!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
 
-<!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
 
 </head>
+
 <body>
-    
+
     <header>
         <ul class="header">
-            
+
             <li><img src="../img/logo proyecto (2).png" alt=""></li>
-            
-            <a href="../home/index.html"><li>HOME</li></a>
-            
-            <a href="../playlist/playlist.html"><li>PLAYLIST</li></a>
-            
-            <a href="../detalle/generos.html"><li>GENERO</li></a>
-            
+
+            <a href="../home/index.html">
+                <li>HOME</li>
+            </a>
+
+            <a href="../playlist/playlist.html">
+                <li>PLAYLIST</li>
+            </a>
+
+            <a href="../detalle/generos.html">
+                <li>GENERO</li>
+            </a>
+
             <form action="resultados.html" method="GET">
                 <input class="" type="text" name="buscador" id="" placeholder="Buscar">
                 <input type="submit" value="Buscar">
-                
+
             </form>
-              
-              <div class="listadoDeGifsPopulares">
-          
-              </div>
+
+            <div class="listadoDeGifsPopulares">
+
+            </div>
         </ul>
     </header>
 
     <main>
-        
+
         <!-- TOP TRACKS -->
+        <p class="top3tracks">TOP TRACKS</p>
         <div uk-slider>
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-            
-            <ul class="lista-canciones uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-                <li style="display:none">
+            <div class="uk-position-relative uk-visible-toggle uk-light display" tabindex="-1">
 
-                </li>
-            
-            </ul>
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                <ul class="lista-canciones uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                    <li style="display:none">
+
+                    </li>
+
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
 
 
+            </div>
         </div>
-        </div>
+        
+        
 
         <!-- TOP ARTISTS -->
-        <p class="top3artistas">TOP Artistas Internacionales</p>
+        <p class="top3artistas">TOP ARTISTAS</p>
         <ol class="topArtistas">
-           
+
+
         </ol>
 
 
-       <!-- TOP ALBUMS -->
-       <p class="top3albums">TOP Albums</p>
-       <ol class="lista-albums">
-        
-       </ol>
+        <!-- TOP ALBUMS -->
+        <p class="top3albums">TOP ALBUMS</p>
+        <div uk-slider>
+            <div class="uk-position-relative uk-visible-toggle uk-light display" tabindex="-1">
+
+                <ul class="lista-albums uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                    <li style="display:none">
+
+                    </li>
+
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
+
+
+            </div>
+        </div>
+
+
 
     </main>
-    <div></div>
+    <br>
+    <br>
+    <br>
+    <br>
+
     <footer class="homefooter">
         <p>Proyecto creado por Francesco Scaglioni, Santiago Karagozian y Florian Vinelli</p>
         <img width="100%" src="../img/Logo Deezer.png" alt="Logo Deezer">
     </footer>
+
 </body>
+
 </html>

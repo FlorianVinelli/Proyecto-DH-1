@@ -1,13 +1,14 @@
 body{
-    background-image: url(../img/background\ image.jpg);
+    background-color: #1B1B1B;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
 
-a{
+body a{
     color: white;
     text-decoration: none;
 }
+
 
 /* HEADER */
 
@@ -44,7 +45,7 @@ header ul a{
  footer {
      display: grid;
      grid-template-columns: 35% 55%;
-     justify-content: space-around;
+     justify-content: space-between;
  }
 
 /* TOP TRACKS DEL MOMENTO */
@@ -52,13 +53,11 @@ header ul a{
 .lista-canciones {
     display: grid;
     width: 80%;
-    grid-template-columns: 100% ;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: space-around;
-    padding-inline-start: 25px;
-    font-size: 25px;    
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
     list-style-type: none;
-    
+    font-size: 10px;
 }
 
 .lista-canciones li{
@@ -68,18 +67,40 @@ header ul a{
 
 .lista-canciones img{
     width: 60%;
-    margin-bottom: 20px;
-    margin-left: 40px;
+    margin-bottom: 15px;
+    margin-left: 30px;
 }
 
 .top3tracks {
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .artista{
     font-style: italic;
-    margin-top: 0;
+    margin-top: -10px;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.albumTop{
+    margin-top: -16px;
+}
+
+.artistaAlbum{
+    margin-top: -15px;
+}
+
+
+
+.uk-panel{
+    color: white;
+}
+
 
 /* TOP ARTISTAS */
 
@@ -88,19 +109,37 @@ header ul a{
     text-align: center;
     list-style: none;
     margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    padding-left: 35px;
+}
+
+.topArtistas li p{
+    margin-top: 0;
+    font-size: 11px;
 }
 
 .topArtistas img{
     margin: 0 auto;
-    width: 25%;
     border-radius: 50%;
     align-content: center;
-    display: block;
-    margin-bottom: 5px;
 }
 
 .top3artistas{
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.artistaTop{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 }
 
 
@@ -109,34 +148,59 @@ header ul a{
 .lista-albums {
     display: grid;
     width: 80%;
-    grid-template-columns: 100% ;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: space-around;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
     padding-inline-start: 25px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
-.imagenes-albums{
-    width: 90%;
+.lista-albums li p{
+    margin-top: 0;
+    margin-bottom: 3px;
 }
+
+.lista-albums img{
+    width: 60%;
+    margin-bottom: 15px;
+}
+
 
 .lialbums {
     padding-top: 30px;
     list-style: none;
     text-align: center;
+    font-size: 11px;
 }
 
 .top3albums{
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
- 
+.albumTop{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.artistaAlbum{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
 
 
 
 
 
 @media (min-width: 600px){
+    
+    
+
+    /* HEADER */
     ul.header{
         display: grid;
         grid-template-columns: 15% 15% 15% 15%;
@@ -150,22 +214,57 @@ header ul a{
     header ul a li{
         padding-top: 20px;
         font-size: 20px;
+        text-decoration: none;
     }
 
-    .topArtistas{
+    /* TOP TRACKS */
+    .lista-canciones {
         display: grid;
         grid-template-columns: 20% 20% 20%;
         justify-content: space-between;
         list-style: none;
+        grid-template-rows: none;
+        width: 100%;
+        padding-inline-start: 0;
+
     }
 
-    .topArtistas img{
+    .top3tracks{
+        font-size: 20px;
+    }
+
+    .lista-canciones img{
         margin-left: 65px;
+    }
+
+    
+    /* TOP ARTISTAS */
+
+    .topArtistas li{
+        display: block;
+        padding-left: 0;
+    }
+
+    .topArtistas li img{
+        width: 20%;
+        margin-left: 5px;
+    }
+
+    .topArtistas a{
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    .topArtistas li p{
+        font-size: 15px;
     }
 
     .top3{
         font-size: 20px;
     }
+
+    /* TOP ALBUMS */
 
     .lista-albums{
         display: grid;
@@ -190,24 +289,8 @@ header ul a{
         text-align: auto;
     }
 
-    .lista-canciones {
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        justify-content: space-between;
-        grid-template-rows: none;
-        margin-bottom: 180px;
-        width: 100%;
-
-    }
-
-    .top3tracks{
-        font-size: 20px;
-    }
-
-    .lista-canciones img{
-        width: 80%;
-        margin-left: 0;
-    }
+    
+    /* FOOTER */
 
     .homefooter{
         display: grid;
