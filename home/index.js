@@ -1,3 +1,4 @@
+
 /* TOP TRACKS */
 window.addEventListener("load", function(){
     fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
@@ -23,46 +24,25 @@ window.addEventListener("load", function(){
                 let artist = cadaTrack.artist.name
                 
                 
-                let htmlNuevoTrack = `
+                let htmlNuevoTrack =`
+                  
 
+                  <li>
                 
-                    <li>
-                        <img class="lista-canciones" src="`+ album +`">
-                        <div class="uk-position-center uk-panel"">
-                            `+ title +`
-                            <br>
-                            <br>
-                            <p class="artista">
-                            ` + artist + `
-                            </p>
-                        </div>
-                  </li>
-                
-             
-                
-    
-                 
+                  <img class="lista-canciones" src="` + album + `" alt="">
 
-                    `/*
-                    <a href="../detalle/detalle.html?idDeTrack=` + idTrack + `">
-                    <li>     
-                    
-                    <img class="lista-canciones" src="` + album + `">
+                  <br>
 
-                    ` + title + ` 
+                  <a href="../detalle/albums.html?idAlbums=` + idTrack + `">
+                  <p class="albumTop">` + title + ` </p>
+                  </a>
+                  
 
-                    <br>
-                    <br>
-                    
-                    
-                    <p class="artista">` + artist + `</p>
+                  <p class="artistaAlbum"> ` + artist + ` </p>
+          
+              </li>
 
-                    </li>
-                    </a>
-                    
-                    */
-
-                
+              `
                 
 
                 
@@ -106,12 +86,15 @@ window.addEventListener("load", function(){
                 
                 let htmlNuevoArtist = `
 
-                <a href="../detalle/artista.html?idArtist=` + idArtist + `">
+                
                     <li class="topArtistas"> 
+                        <a href="../detalle/artista.html?idArtist=` + idArtist + `">
                         <img src="` + artistImg + `" alt=""> 
-                        ` + artist + `
+                        </a>
+                        <br>
+                        <p class="artistaTop"> ` + artist + ` </p>
                     </li>
-                </a>
+                
                     
                     
 
@@ -156,20 +139,28 @@ window.addEventListener("load", function(){
                 let idAlbum = cadaAlbum.id
                 let album = cadaAlbum.title
                 let albumImg = cadaAlbum.cover
+                let artistAlbum = cadaAlbum.artist.name
         
                 let htmlNuevoAlbum = `
 
-                <a href="../detalle/albums.html?idAlbums=` + idAlbum + `">
+                
                 
                     <li class="lialbums">
                 
                         <img class="imagenes-albums" src="` + albumImg + `" alt="">
+
+                        <br>
+
+                        <a href="../detalle/albums.html?idAlbums=` + idAlbum + `">
+                        <p class="albumTop">` + album + ` </p>
+                        </a>
                         
-                        ` + album + ` 
+
+                        <p class="artistaAlbum"> ` + artistAlbum + ` </p>
                 
                     </li>
-
-                </a>
+                
+                
                     
                 `
                 document.querySelector(".lista-albums").innerHTML += htmlNuevoAlbum
@@ -183,6 +174,8 @@ window.addEventListener("load", function(){
 
         
 ) 
+
+
 
 
 

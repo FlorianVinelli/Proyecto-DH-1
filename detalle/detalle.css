@@ -20,13 +20,13 @@ header ul a li{
    
 
 header ul a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding-top: 30px;
 }
 
 body{
-    background-color: white;
+    background-color: #1B1B1B;
 }
  
 main h2 {
@@ -55,7 +55,7 @@ footer {
 	margin: 0 auto;
 	margin-top: 30px;
     display: block;
-    border: 2px solid black;
+    border: 2px solid white;
 } 
 
 @media (min-width: 600px){
