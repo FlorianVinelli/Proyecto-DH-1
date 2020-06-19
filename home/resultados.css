@@ -5,7 +5,7 @@ ul.header{
     font-size: 15px;    
     margin-bottom: 115px;
     padding-left: 0em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -34,6 +34,10 @@ header ul a{
     grid-template-columns: 10% 60%;
     justify-content: space-around;
     margin-bottom: 30px;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    padding-bottom: 20px;
 }
 
 body{
@@ -68,6 +72,7 @@ footer {
         display: grid;
         grid-template-columns: 15% 15% 15% 15%;
         justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
     }
 
     header ul li img{
