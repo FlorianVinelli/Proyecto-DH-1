@@ -48,11 +48,7 @@ window.addEventListener("load", function() {
                 </article>
                 
                 <article>
-                    <a class="trackName" href="tracks.html?idTrack=`+ idTrack +`">`+ tracks +`</a> <h4><a href="artista.html?idArtist=`+ idArtist +`">`+ nombreArtista +`</a></h4>
-                </article>
-                
-                <article class="iconos">
-                    <i class="fas fa-plus"></i>
+                    <a class="trackName" href="detalle.html?idTrack=`+ idTrack +`">`+ tracks +`</a> <h4><a href="Artists.html?idArtista=`+ idArtist +`">`+ nombreArtista +`</a></h4>
                 </article>
             </section>
             `
@@ -67,38 +63,16 @@ window.addEventListener("load", function() {
         
        
 
-        document.querySelector(".informacion-album").innerHTML =
+        document.querySelector(".info-album").innerHTML =
         `
         <ul>
             <div>
                 <li>Detalles del Album:</li>
                 <li>`+ estreno +`</li>
-                <li>`+ duracion +`</li>
-                <li class="genero"> Género - </li>
+                <li>`+ duracion +`</li
             </div>
         </ul>
         `
-
-        for (let i = 0; i < genero.length; i++) {
-            const element = genero[i];
-            
-           let nombreGenero = element.name
-           let idGenero = element.id
-
-           
-           if (element == 1) {
-            document.querySelector(".genero").innerHTML += 
-            `
-            <a href="Genero.html?idGenero=`+ idGenero +`">`+ nombreGenero +`</a>
-            ` 
-           } else{
-            document.querySelector(".genero").innerHTML += 
-            `
-            <a href="Genero.html?idGenero=`+ idGenero +`">`+ nombreGenero + " " + "-" + `</a>
-            ` 
-           }
-
-        }
 
     })
 
