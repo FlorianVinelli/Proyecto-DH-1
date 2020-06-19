@@ -1,6 +1,5 @@
 body{
     background-color: #1B1B1B;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
 
@@ -17,7 +16,7 @@ ul.header{
     font-size: 15px;    
     margin-bottom: 115px;
     padding-left: 0em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
