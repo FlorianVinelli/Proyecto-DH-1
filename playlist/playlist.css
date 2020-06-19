@@ -19,13 +19,13 @@ header ul a li{
    
 
 header ul a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding-top: 30px;
 }
 
 body{
-    background-color: grey;
+    background-color: #1B1B1B;
 }
 
  
@@ -34,6 +34,9 @@ footer {
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 40px;
+}
+footer p {
+    color: white
 }
 
 main ul li{

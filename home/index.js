@@ -20,7 +20,7 @@ window.addEventListener("load", function(){
                 
                 let title = cadaTrack.title
                 let idTrack = cadaTrack.id
-                let album = cadaTrack.album.cover
+                let album = cadaTrack.album.cover_xl
                 let artist = cadaTrack.artist.name
                 
                 
@@ -33,7 +33,7 @@ window.addEventListener("load", function(){
 
                   <br>
 
-                  <a href="../detalle/albums.html?idAlbums=` + idTrack + `">
+                  <a href="../detalle/tracks.html?idTrack=` + idTrack + `">
                   <p class="albumTop">` + title + ` </p>
                   </a>
                   
@@ -81,7 +81,7 @@ window.addEventListener("load", function(){
             
                 let idArtist = cadaArtist.id
                 let artist = cadaArtist.name
-                let artistImg = cadaArtist.picture_small
+                let artistImg = cadaArtist.picture_xl
                 
                 
                 let htmlNuevoArtist = `
@@ -138,7 +138,7 @@ window.addEventListener("load", function(){
             
                 let idAlbum = cadaAlbum.id
                 let album = cadaAlbum.title
-                let albumImg = cadaAlbum.cover
+                let albumImg = cadaAlbum.cover_xl
                 let artistAlbum = cadaAlbum.artist.name
         
                 let htmlNuevoAlbum = `

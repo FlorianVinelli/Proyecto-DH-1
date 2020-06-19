@@ -60,12 +60,7 @@ window.addEventListener("load", function() {
                     
                         <article class="conteo" >` + (i+1) +`
                         <a href="Tracks.html?idTrack=`+ idTrack +`">` + nombre +`</a>
-                        </article>
-                        
-                        <article class="add-playlist">
-                            <i class="fas fa-plus botoncito"  idCancion=` + idTrack + `></i>
-                        </article>
-                        </section>`
+                        </article>`
                         
                 }
 
