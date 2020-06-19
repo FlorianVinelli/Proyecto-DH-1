@@ -73,7 +73,8 @@ header ul a{
 .listadoDeGeneros img{
     width: 60%;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
+    border:1px black;
 }
 
 ol li.listadoDeGeneros{
@@ -92,87 +93,98 @@ ol li.listadoDeGeneros{
     margin-right: 20px;
 }
 
+main ol li a li{
+    font-size: 15px;
+    text-align: right;
+}
+
 
 
  /* DESKTOP */
 
 @media (min-width: 600px){
    
-    /* FOOTER */
+/* FOOTER */
 
-    .homefooter{
-        display: grid;
-        grid-template-columns: 45% 45%;
-        width: 30%;
-        margin-left: 950px;
-    }
+.homefooter{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    width: 30%;
+    margin-left: 950px;
+}
 
-    .homefooter img{
-        width: 80%;
-        padding-left: 20px;
-    }
-
-
-
-    /*HEADER*/
-
-    ul.header{
-        display: grid;
-        grid-template-columns: 15% 15% 15% 15%;
-        justify-content: space-between;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    header ul li img {
-        width: 75%;
-    }
-
-    header ul a li{
-        padding-top: 20px;
-        font-size: 20px;
-        text-decoration: none;
-    }
+.homefooter img{
+    width: 80%;
+    padding-left: 20px;
+}
 
 
 
-    /* LISTADO */
+/*HEADER*/
+
+ul.header{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+header ul li img {
+    width: 75%;
+}
+
+header ul a li{
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+/* LISTADO */
    
-    .generos {
-        font-size: 22px;
-        font-family: 'Roboto', sans-serif;
-        border-width: 0 0 thin 0;
-        border-style: solid;
-        border-color: rgba(255, 255, 255, .5);
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+.generos {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-    .listadoDeGeneros {
-        font-family: 'Roboto', sans-serif;
-        display: grid;
-        width: 100%;
-        grid-template-columns: 20% 20% 20% 20% ;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        justify-content: space-around;
-        font-size: 10px;    
-        list-style-type: none;
-    }
+.listadoDeGeneros {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 20% 20% 20% ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    font-size: 10px;    
+    list-style-type: none;
+}
     
-    .listadoDeGeneros li{
-        padding-top: 10px;
-        text-align: center;
-        margin-bottom: 70px;
-    }
+.listadoDeGeneros li{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 70px;
+}
     
-    .listadoDeGeneros img{
-        width: 60%;
-        margin-bottom: 20px;
-        margin-left: 40px;
-    }
+.listadoDeGeneros img{
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    border:1px solid black;
+}
     
-    ol li.listadoDeGeneros{
-        margin-bottom: 30px;
-        font-family: 'Roboto', sans-serif;
-    }
-  
+ol li.listadoDeGeneros{
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main ol li a li{
+    font-size: 15px;
+    padding: 10px;
+}
+
 }

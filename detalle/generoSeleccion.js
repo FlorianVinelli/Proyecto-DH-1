@@ -22,8 +22,7 @@ window.addEventListener("load", function() {
 
         document.querySelector(".nombreGenero").innerHTML = nombre
 
-        document.querySelector(".position").innerHTML = `<img  id="foto-perfil" src="` + imagen +`" alt="foto de` + " " + nombre +`">
-         <h4> ARTISTAS DEL GENERO</h4> `
+        document.querySelector(".position").innerHTML = `<img  id="foto-perfil" src="` + imagen +`" alt="foto de` + " " + nombre +`">`
 
          document.querySelector(".tituloPrincipal").innerHTML += nombre
 
@@ -43,6 +42,7 @@ window.addEventListener("load", function() {
                 let artista = artistas[i]
                 let nombre = artista.name
                 let id = artista.id
+                let imagen = artista.picture
                 document.querySelector(".topArtistas").innerHTML += `<section>
                         
                     <article class="conteo" >`  +`
