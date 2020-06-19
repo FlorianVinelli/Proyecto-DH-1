@@ -28,7 +28,7 @@ window.addEventListener("load", function() {
                 `<li>
                 <a href="tracks.html?idTrack=`+ idTrack +`">`+ title +`</a></h4>
                 <h4> <a class="artista" href="Artists.html?idArtista=`+ idArtist +`">`+ artist +`</a></h4>
-                </li>
+                </li>`
  
          
             })
