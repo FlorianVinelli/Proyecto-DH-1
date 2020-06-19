@@ -56,7 +56,7 @@ window.addEventListener("load", function() {
                 
                 document.querySelector(".reproCancion").innerHTML = 
                 `<iframe scrolling="no" frameborder="0" allowTransparency="true" 
-                src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=900&height=350&color=800080&layout=dark&size=medium&type=tracks&id=`+ idTrack +`&app_id=1" 
+                src="https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=900&height=500&color=800080&layout=dark&size=medium&type=tracks&id=`+ idTrack +`&app_id=1" 
                 width="100%" height="90"></iframe>`
         
               
@@ -81,14 +81,6 @@ window.addEventListener("load", function() {
         
         
                 
-        
-        
-                /*let reproduccion = track.preview
-        
-                document.querySelector(".reproduccion").innerHTML = 
-                `
-                <audio src="`+ reproduccion +`"></audio>
-                `*/
             })
         }
     )
