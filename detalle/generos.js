@@ -15,7 +15,7 @@ window.addEventListener ("load", function() {
 
             // LISTADO GENEROS //
 
-            for (let index = 0; index < todosGeneros.length; index++) {
+            for (let index = 1; index < todosGeneros.length; index++) {
                 const cadaGenero = todosGeneros[index];
 
                 let id = cadaGenero.id

@@ -25,7 +25,7 @@ footer {
 ul.header{
     list-style: none;
     font-size: 15px;    
-    margin-bottom: 115px;
+    margin-bottom: 100px;
     padding-left: 0em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -71,6 +71,14 @@ main div div img{
 h4{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    padding-left: 23px;
+}
+
+main a main section{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    list-style: none;
+    padding-left: 23px;
     border-width: 0 0 thin 0;
     border-style: solid;
     border-color: rgba(255, 255, 255, .5);
@@ -78,13 +86,8 @@ h4{
     margin-right: 20px
 }
 
-main a main {
-    font-family: sans-serif;
-    text-decoration: none;
-    list-style: none;
-    padding-left: 23px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+main a main{
+    padding-bottom: 50px;
 }
 
 
@@ -151,7 +154,9 @@ main main{
 h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+}
+
+main a main section{
     border-width: 0 0 thin 0;
     border-style: solid;
     border-color: rgba(255, 255, 255, .5);
