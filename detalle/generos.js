@@ -27,7 +27,7 @@ window.addEventListener ("load", function() {
 
                 let htmlDeGeneros = `
 
-                <a href="../detalle/detalle.html?idDeTrack=` + id + `">
+                <a href="../detalle/tracks.html?idDeTrack=` + id + `">
                 <img class="listadoDeGeneros" src= "`+ picture +`">
 
                 <li> `+ name + `</li>
