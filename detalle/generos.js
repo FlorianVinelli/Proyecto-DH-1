@@ -20,7 +20,7 @@ window.addEventListener ("load", function() {
 
                 let id = cadaGenero.id
                 let name = cadaGenero.name
-                let picture = cadaGenero.picture
+                let picture = cadaGenero.picture_xl
 
                 console.log(id)
                 console.log(name)
