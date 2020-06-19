@@ -16,9 +16,9 @@ window.addEventListener("load", function() {
         function (information) {
             
             
+ //Info de la cancion ()
+                let cadaTrack = information  
 
-            let cadaTrack = information
-                
                 let title = cadaTrack.title
                 let idTrack = cadaTrack.id
                 let album = cadaTrack.album.cover_xl
@@ -41,12 +41,13 @@ window.addEventListener("load", function() {
 
                 let estreno = cadaTrack.release_date
                 let duracion = cadaTrack.duration
+
                 duracion = "Duracion: " + Math.floor(duracion/60) +  " " + "mins" + " " + duracion%60 + " " + "segs"
-                let fotoArtista = cadaTrack.artist.picture_xl
+
 
 
                 
-
+                //Detalles de la cancion
                 document.querySelector(".informacion-cancion").innerHTML = 
                 `
                 <ul>
@@ -54,17 +55,19 @@ window.addEventListener("load", function() {
                     <li>`+ duracion +`</li>
                 </ul>`
                 
+                //widget player para reproducir cancion (plugin)
                 document.querySelector(".reproCancion").innerHTML = 
                 `<iframe scrolling="no" frameborder="0" allowTransparency="true" 
                 src="https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=900&height=500&color=800080&layout=dark&size=medium&type=tracks&id=`+ idTrack +`&app_id=1" 
                 width="100%" height="90"></iframe>`
         
               
-        
+        //storage para playlist
         document.querySelector(".add-playlist").addEventListener("click", function(){
+
             let ArrayCancionesFavs
 
-            if(localStorage.getItem("cancionesFavs") != null){
+            if(localStorage.getItem("cancionesFavs")!= null){
                 ArrayCancionesFavs = localStorage.getItem("cancionesFavs").split(",")
                 ArrayCancionesFavs.push(numeroTrack)
             }else{
