@@ -26,11 +26,7 @@ window.addEventListener("load", function() {
             <b>` + nombre +`</b>`
 
         document.querySelector(".detalle").innerHTML = `
-            <li><b class="error-desktop">` + nombre+`</b></li>
-            <li class="boton">
-                <button type="button">
-                Follow</button>
-            </li>
+            <li><b>` + nombre+`</b></li>
             <li>` + fans + " " +`fans</li>
             `
 

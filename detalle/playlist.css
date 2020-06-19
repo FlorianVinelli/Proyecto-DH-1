@@ -3,7 +3,7 @@ ul.header{
     font-size: 15px;    
     margin-bottom: 115px;
     padding-left: 0em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -54,6 +54,17 @@ main ul{
 
 main ul li img{
     width: 100%;
+}
+
+div h2 {
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#foto-playlist {
+    width: 75%;
+    align-content: center;
 }
 
 @media (min-width: 600px){
