@@ -27,11 +27,11 @@ window.addEventListener ("load", function() {
 
                 let htmlDeGeneros = `
 
-                <a href="../detalle/detalle.html?idDeTrack=` + id + `">
+                <a href="../detalle/generoSeleccion.html?idGenre=` + id + `">
                 <img class="listadoDeGeneros" src= "`+ picture +`">
 
                 <li> `+ name + `</li>
-                
+
                 </a>`
 
                 document.querySelector(".listadoDeGeneros").innerHTML += htmlDeGeneros

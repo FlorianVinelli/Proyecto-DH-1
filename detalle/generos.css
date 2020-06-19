@@ -1,8 +1,12 @@
+/* MOBILE */
+
 body{
-background-color: #1B1B1B;
+    background-color: #1B1B1B;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
  }
  
- a{
+ body a{
      color: white;
      text-decoration: none;
  }
@@ -47,7 +51,7 @@ header ul a{
 
 
 
-/* LISTADO */
+/* LISTADO GENEROS */
 
 .listadoDeGeneros {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -74,19 +78,83 @@ header ul a{
 
 ol li.listadoDeGeneros{
     margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.generos{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
- /* LISTADO */
-@media (min-width 600px){
-    .listadoDeGeneros {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ /* DESKTOP */
+
+@media (min-width: 600px){
+   
+    /* FOOTER */
+
+    .homefooter{
         display: grid;
+        grid-template-columns: 45% 45%;
+        width: 30%;
+        margin-left: 950px;
+    }
+
+    .homefooter img{
         width: 80%;
-        grid-template-columns: 25% 25% 25% 25%;
+        padding-left: 20px;
+    }
+
+
+
+    /*HEADER*/
+
+    ul.header{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15%;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    header ul li img {
+        width: 75%;
+    }
+
+    header ul a li{
+        padding-top: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+
+
+    /* LISTADO */
+   
+    .generos {
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        border-width: 0 0 thin 0;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, .5);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .listadoDeGeneros {
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 20% 20% 20% 20% ;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         justify-content: space-around;
-        font-size: 15px;    
+        font-size: 10px;    
         list-style-type: none;
     }
     
@@ -104,6 +172,7 @@ ol li.listadoDeGeneros{
     
     ol li.listadoDeGeneros{
         margin-bottom: 30px;
+        font-family: 'Roboto', sans-serif;
     }
-    
+  
 }

@@ -1,0 +1,128 @@
+/* MOBILE */
+
+body{
+    background-color: #1B1B1B;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+ }
+ 
+ body a{
+     color: white;
+     text-decoration: none;
+ }
+
+ /* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+
+ /* HEADER */
+
+ul.header{
+    list-style: none;
+    font-size: 15px;    
+    margin-bottom: 115px;
+    padding-left: 0em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header ul li img{
+    width: 15%;
+    align-content: center;
+    margin-bottom: 20px;
+    
+}
+
+header ul a li{
+    margin-bottom: 10px;
+}
+   
+
+header ul a{
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+
+
+ /* MAIN */
+
+main p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main div div img{
+    width: 100%;
+}
+
+ /* DESKTOP */
+
+ @media (min-width: 600px){
+   
+    /* FOOTER */
+
+    .homefooter{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        width: 30%;
+        margin-left: 950px;
+    }
+
+    .homefooter img{
+        width: 80%;
+        padding-left: 20px;
+    }
+
+
+
+    /*HEADER*/
+
+    ul.header{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15%;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    header ul li img {
+        width: 75%;
+    }
+
+    header ul a li{
+        padding-top: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+/* MAIN */
+
+main p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main div div img{
+    width: 25%;
+}
+
+main main{
+    font-family: 'Roboto', sans-serif;
+    text-decoration-color: red;
+}
