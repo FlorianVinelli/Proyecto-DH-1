@@ -23,7 +23,7 @@ window.addEventListener("load", function() {
                 let idTrack = cadaTrack.id
                 let album = cadaTrack.album.cover_xl
                 let artist = cadaTrack.artist.name
-                let idalbums = cadaTrack.album.id
+                let idAlbums = cadaTrack.album.id
                 let nombreAlbum = cadaTrack.album.title
                 let idArtist = cadaTrack.artist.id
                 
@@ -34,8 +34,8 @@ window.addEventListener("load", function() {
                 <div>
                     <button class="add-playlist" type="button">Add <i class="fas fa-plus"></i></button>
                     <h1>`+ title +`</h1>
-                    <h2>Album <a href="Albums.html?idAlbum=`+ idalbums +`">`+ nombreAlbum +`</a></h2>
-                    <h3>By <a href="Albums.html?idAlbum=`+ idArtist +`">`+ artist +`</a></h3>
+                    <h2>Album <a href="albums.html?idAlbums=`+ idAlbums +`">`+ nombreAlbum +`</a></h2>
+                    <h3>By <a href="artista.html?idArtist=`+ idArtist +`">`+ artist +`</a></h3>
                 </div>
                 `
 
