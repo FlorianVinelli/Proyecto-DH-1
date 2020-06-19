@@ -3,10 +3,9 @@ ul.header{
     font-size: 15px;    
     margin-bottom: 115px;
     padding-left: 0em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
 
 header ul li img{
     width: 15%;
@@ -28,38 +27,47 @@ header ul a{
 body{
     background-color: #1B1B1B;
 }
- 
-main h2 {
-    text-align: center;
-}
 
-main p {
-    text-align: center;
-}
+ 
 
 footer {
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-top: 50px;
+    margin-top: 40px;
+}
+footer p {
+    color: white
 }
 
-.img-add-to-playlist {
-    width: 60%;
-    display: block;
-    padding-top: 15px;
-    margin: auto;
+main ul li{
+    list-style-type: none;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 10% 60%;
+    justify-content: space-around;   
+    margin-bottom: 10px;
 }
 
-.imgblindinglights {
-    width: 50%;
-	margin: 0 auto;
-	margin-top: 30px;
-    display: block;
-    border: 2px solid white;
-} 
+main ul{
+    padding-inline-start: 0;
+}
+
+main ul li img{
+    width: 100%;
+}
+
+div h2 {
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#foto-playlist {
+    width: 75%;
+    align-content: center;
+}
 
 @media (min-width: 600px){
-
     ul.header{
         display: grid;
         grid-template-columns: 15% 15% 15% 15%;
@@ -75,8 +83,13 @@ footer {
         font-size: 20px;
     }
 
-    .img-add-to-playlist{
-        width: 20%;
+    main ul li{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    main ul li .playlist{
+        padding-top: 50px;
     }
 
     .homefooter{
@@ -84,9 +97,7 @@ footer {
         grid-template-columns: 45% 45%;
         justify-content: space-between;
         width: 30%;
-        margin-top: 60px;
         margin-left: 950px
-        
     }
 
     .homefooter img{

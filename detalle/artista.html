@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="artista.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a0c0bb4f74.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <title>Artista</title>
+    <script src="artista.js"></script>
+     <!-- UIkit CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+
+     <!-- UIkit JS -->
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+ 
 </head>
 <body>
     <header>
         <ul class="header">
             <li><img src="../img/logo proyecto (2).png" alt=""></li>
             <a href="../home/index.html"><li>HOME</li></a>
-            <a href="../playlist/playlist.html"><li>PLAYLIST</li></a>
-            <a href="../detalle/detalle.html"><li>GENERO</li></a>
+            <a href="../detalle/playlist.html"><li>PLAYLIST</li></a>
+            <a href="../detalle/generos.html">
+                <li>GENERO</li>
+            </a>
+
+            <form action="resultados.html" method="GET">
+                <input class="" type="text" name="buscador" id="" placeholder="Buscar">
+                <input type="submit" value="Buscar">
+
+            </form>
+            
         </ul>
     </header>
 
@@ -44,5 +64,5 @@
         <img width="100%" src="../img/Logo Deezer.png" alt="Logo Deezer">
     </footer>
 </body>
-     <script src="artista.js"></script>
+
 </html>

@@ -5,6 +5,8 @@ ul.header{
     padding-left: 0em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    font-family:'Montserrat', sans-serif;
+    
 }
 
 
@@ -16,6 +18,7 @@ header ul li img{
 
 header ul a li{
     margin-bottom: 10px;
+    color: white;
 }
    
 
@@ -29,12 +32,24 @@ body{
     background-color: #1B1B1B;
 }
 
+main {
+    font-family:'Montserrat', sans-serif;;
+}
+
 main h2 {
-    text-align: center;
+
+    text-align: left;
+    color: white
 }
 
 main p {
     text-align: center;
+}
+
+main section {
+    border-bottom: 2px solid white;
+    padding: 10px;
+    font-size: medium;
 }
 
 footer {
@@ -43,6 +58,34 @@ footer {
     margin-top: 50px;
 }
 
+footer p {
+    color: white;
+    font-family:'Montserrat', sans-serif;
+}
+
+.detalle {
+    list-style-type: none;
+}
+
+.detalle b {
+    display: none;
+}
+
+
+div ul.detalle li {
+    color: gray;
+}
+
+.conteo {
+   color: white;
+   list-style-type: none;
+}
+
+.conteo a {
+    text-decoration: none;
+}
+
+
 
 #foto-perfil {
     width: 100%;
@@ -50,13 +93,23 @@ footer {
 
 main section article a {
     font-size: medium;
-    color: black;
+    color: white;
 }
 
+<<<<<<< HEAD
 #coso{
     font-size: 500px;
 }
 
+=======
+div b {
+    font-family: 'Montserrat', sans-serif;;
+    color: white;
+    font-size: 30px;
+}
+
+
+>>>>>>> 24eb362be06a73fd6b40417bb36dd9daffa3700c
 @media (min-width: 600px){
 
     ul.header{
@@ -92,4 +145,27 @@ main section article a {
         width: 80%;
         padding-left: 20px;
     }
+
+    .titulo-desktop {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    #photo-perfil {
+        border: 3px grey;
+        place-content: left;
+    }
+
+    .detalle b {
+        display: block;
+    }
+
+    .position b {
+        display: none;
+    }
+
+    
+
 }

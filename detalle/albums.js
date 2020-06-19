@@ -48,7 +48,7 @@ window.addEventListener("load", function() {
                 </article>
                 
                 <article>
-                    <a class="trackName" href="detalle.html?idTrack=`+ idTrack +`">`+ tracks +`</a> <h4><a href="Artists.html?idArtista=`+ idArtist +`">`+ nombreArtista +`</a></h4>
+                    <a class="trackName" href="tracks.html?idTrack=`+ idTrack +`">`+ tracks +`</a> <h4><a href="artista.html?idArtist=`+ idArtist +`">`+ nombreArtista +`</a></h4>
                 </article>
                 
                 <article class="iconos">
@@ -70,9 +70,8 @@ window.addEventListener("load", function() {
         document.querySelector(".informacion-album").innerHTML =
         `
         <ul>
-            <li><a href="Artists.html?idArtista=`+ idArtist +`"><img src="`+ fotoArtista +`" alt="Foto de`+ " " + nombreArtista +`"></a></li>
-            
             <div>
+                <li>Detalles del Album:</li>
                 <li>`+ estreno +`</li>
                 <li>`+ duracion +`</li>
                 <li class="genero"> Género - </li>
