@@ -19,10 +19,7 @@ window.addEventListener("load", function() {
                 
                 let title = cadaTrack.title
                 let idTrack = cadaTrack.id
-                let album = cadaTrack.album.cover_xl
                 let artist = cadaTrack.artist.name
-                let idalbums = cadaTrack.album.id
-                let nombreAlbum = cadaTrack.album.title
                 let idArtist = cadaTrack.artist.id
             
         
@@ -31,12 +28,8 @@ window.addEventListener("load", function() {
                 `<li>
                 <a href="tracks.html?idTrack=`+ idTrack +`">`+ title +`</a></h4>
                 <h4> <a class="artista" href="Artists.html?idArtista=`+ idArtist +`">`+ artist +`</a></h4>
-                </li>`
-            
-                //SPINNER 
-                document.querySelector(".loader").style.display = "none"            
-
-                document.querySelector("main").style.display = "block"   
+                </li>
+ 
          
             })
 
