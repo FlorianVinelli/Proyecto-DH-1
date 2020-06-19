@@ -96,12 +96,6 @@ main section article a {
     color: white;
 }
 
-<<<<<<< HEAD
-#coso{
-    font-size: 500px;
-}
-
-=======
 div b {
     font-family: 'Montserrat', sans-serif;;
     color: white;
@@ -109,7 +103,6 @@ div b {
 }
 
 
->>>>>>> 24eb362be06a73fd6b40417bb36dd9daffa3700c
 @media (min-width: 600px){
 
     ul.header{

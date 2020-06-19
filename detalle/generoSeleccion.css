@@ -67,6 +67,10 @@ main div div img{
     width: 100%;
 }
 
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+
  /* DESKTOP */
 
  @media (min-width: 600px){
@@ -124,5 +128,8 @@ main div div img{
 
 main main{
     font-family: 'Roboto', sans-serif;
-    text-decoration-color: red;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
 }

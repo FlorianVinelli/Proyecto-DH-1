@@ -21,7 +21,7 @@ window.addEventListener("load", function() {
 
         document.querySelector(".nombreGenero").innerHTML = nombre
 
-        document.querySelector(".position").innerHTML = `<img  id="foto-perfil" src="` + imagen +`" alt="foto de` + " " + nombre +`"> `
+        document.querySelector(".position").innerHTML = `<img  id="foto-perfil" src="` + imagen +`" alt="foto de` + " " + nombre +`"> <h4>TOP ARTISTAS DEL GENERO</h4> `
 
 
         fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + numeroDeGenero + "/artists")
@@ -45,7 +45,7 @@ window.addEventListener("load", function() {
                         
                     <a href="artista.html?idArtists=`+ id +`">` + nombre +`</a>
                         
-                    </article>`
+                    </article></section>`
                         
             }
         })
