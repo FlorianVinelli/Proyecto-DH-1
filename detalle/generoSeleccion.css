@@ -4,7 +4,7 @@ body{
     background-color: #1B1B1B;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
- }
+}
  
  body a{
      color: white;
@@ -64,51 +64,69 @@ main p{
 }
 
 main div div img{
-    width: 100%;
+    width: 80%;
+    padding-left: 23px;
 }
 
 h4{
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px
 }
+
+main a main {
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 
  /* DESKTOP */
 
  @media (min-width: 600px){
    
-    /* FOOTER */
+/* FOOTER */
 
-    .homefooter{
+.homefooter{
         display: grid;
         grid-template-columns: 45% 45%;
         width: 30%;
         margin-left: 950px;
     }
 
-    .homefooter img{
+.homefooter img{
         width: 80%;
         padding-left: 20px;
     }
 
 
 
-    /*HEADER*/
+/*HEADER*/
 
-    ul.header{
+ul.header{
         display: grid;
         grid-template-columns: 15% 15% 15% 15%;
         justify-content: space-between;
         font-family: 'Roboto', sans-serif;
-    }
+ }
 
-    header ul li img {
+header ul li img {
         width: 75%;
-    }
+}
 
-    header ul a li{
+header ul a li{
         padding-top: 20px;
         font-size: 20px;
         text-decoration: none;
-    }
+}
 
 /* MAIN */
 
@@ -132,4 +150,23 @@ main main{
 
 h4 {
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0 0 thin 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, .5);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main a main {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 23px;
+    padding-top: 20px;
+}
+
+div div img{
+    padding-left: 23px;
+}
 }

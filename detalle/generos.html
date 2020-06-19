@@ -6,22 +6,31 @@
     <title>Generos</title>
     <script type="text/javascript" src="generos.js"></script>
     <link rel="stylesheet" href="generos.css">
+    <script src="https://kit.fontawesome.com/a0c0bb4f74.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <ul class="header">
             <li><img src="../img/logo proyecto (2).png" alt=""></li>
             <a href="../home/index.html"><li>HOME</li> </a>
-            <a href="../playlist/playlist.html"><li>PLAYLIST</li></a>
-            <a href="../detalle/detalle.html"><li>GENEROS</li></a>
+            <a href="../detalle/playlist.html"><li>PLAYLIST</li></a>
+            <a href="../detalle/generos.html"><li>GENEROS</li></a>         
+            <form action="../home/resultados.html" method="GET" class="search">  
+                <input class="search-box" type="text" name="buscador" id="" placeholder="Buscar">  
+                <input type="submit" value="Buscar">   
+            </form>
         </ul>
     </header>
  
-    <main>
+    <main>        
+
         <p class="generos">GENEROS</p>
         <ol>
             <li class="listadoDeGeneros"><a href="../detalle/generoSeleccion.html"></a></li>
         </ol>
+
     </main>
   
     <footer class="homefooter">
@@ -29,4 +38,5 @@
         <img width="100%" src="../img/Logo Deezer.png" alt="Logo Deezer">
     </footer>
 </body>
+
 </html>

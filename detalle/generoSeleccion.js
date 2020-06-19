@@ -1,14 +1,15 @@
 window.addEventListener("load", function() {
 
-    let queryString = new URLSearchParams(location.search);
+    let queryString = new URLSearchParams(location.search); /*selecciona url*/
 
-    let numeroDeGenero = queryString.get("idGenre");
+    let numeroDeGenero = queryString.get("idGenre"); /*define que modificar*/
 
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + numeroDeGenero)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + numeroDeGenero) /*busca la url del API*/
     
-    .then(function(response) {
+
+    .then(function(response) { 
         return response.json()
-    })
+    }) 
 
     .then(function(information) {
     
@@ -22,7 +23,9 @@ window.addEventListener("load", function() {
         document.querySelector(".nombreGenero").innerHTML = nombre
 
         document.querySelector(".position").innerHTML = `<img  id="foto-perfil" src="` + imagen +`" alt="foto de` + " " + nombre +`">
-         <h4>TOP ARTISTAS DEL GENERO</h4> `
+         <h4> ARTISTAS DEL GENERO</h4> `
+
+         document.querySelector(".tituloPrincipal").innerHTML += nombre
 
 
         fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + numeroDeGenero + "/artists")
@@ -42,7 +45,7 @@ window.addEventListener("load", function() {
                 let id = artista.id
                 document.querySelector(".topArtistas").innerHTML += `<section>
                         
-                    <article class="conteo" >` + (i+1) +`
+                    <article class="conteo" >`  +`
                         
                     <a href="artista.html?idArtist=`+ id +`">` + nombre +`</a>
                         
