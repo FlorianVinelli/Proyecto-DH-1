@@ -70,9 +70,8 @@ window.addEventListener("load", function() {
         document.querySelector(".informacion-album").innerHTML =
         `
         <ul>
-            <li><a href="Artists.html?idArtista=`+ idArtist +`"><img src="`+ fotoArtista +`" alt="Foto de`+ " " + nombreArtista +`"></a></li>
-            
             <div>
+                <li>Detalles del Album:</li>
                 <li>`+ estreno +`</li>
                 <li>`+ duracion +`</li>
                 <li class="genero"> Género - </li>

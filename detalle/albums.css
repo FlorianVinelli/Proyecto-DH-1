@@ -108,6 +108,11 @@ h2 {
     line-height: 1;
 }
 
+.informacion-album li{
+    list-style-type: none;
+    color: white;
+}
+
 /* FOOTER */
 
  footer {
