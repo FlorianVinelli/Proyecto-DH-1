@@ -60,7 +60,7 @@ window.addEventListener("load", function() {
                 width="100%" height="90"></iframe>`
         
               
-        //Storage para favear a mi playlist 
+        
         document.querySelector(".add-playlist").addEventListener("click", function(){
             let ArrayCancionesFavs
 
