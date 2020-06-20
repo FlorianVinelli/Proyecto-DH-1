@@ -4,8 +4,9 @@ window.addEventListener("load", function() {
 
     let numeroTrack = queryString.get("idTrack");
 
+     //Estructura basica de fetch
     fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + numeroTrack)
-   
+    
     .then(
         function(respuesta) {
             return respuesta.json();            
@@ -30,7 +31,7 @@ window.addEventListener("load", function() {
                 
                 document.querySelector(".titulo").innerHTML = 
                 `
-                <img id= "foto-cancion" src="`+ album +`" alt="Foto de cancion`+ " " + title +`">
+                <img id= "foto" src="`+ album +`" alt="`+ " " + title +`">
                 <div>
                     <button class="add-playlist" type="button">Add <i class="fas fa-plus"></i></button>
                     <h1>`+ title +`</h1>
@@ -39,15 +40,13 @@ window.addEventListener("load", function() {
                 </div>
                 `
 
+
+               //Detalles de la cancion
                 let estreno = cadaTrack.release_date
                 let duracion = cadaTrack.duration
 
-                duracion = "Duracion: " + Math.floor(duracion/60) +  " " + "mins" + " " + duracion%60 + " " + "segs"
+                duracion = "Duracion: " + Math.floor(duracion/60) +  " " + "mins" + " " + duracion%60 + " " + "segs"  
 
-
-
-                
-                //Detalles de la cancion
                 document.querySelector(".informacion-cancion").innerHTML = 
                 `
                 <ul>
@@ -62,6 +61,12 @@ window.addEventListener("load", function() {
                 width="100%" height="90"></iframe>`
         
               
+
+
+
+
+
+
         //storage para playlist
         document.querySelector(".add-playlist").addEventListener("click", function(){
 
