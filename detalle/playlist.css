@@ -87,6 +87,7 @@ h5 {
         display: grid;
         grid-template-columns: 15% 15% 15% 15%;
         justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
     }
 
     header ul li img{
