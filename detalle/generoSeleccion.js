@@ -4,7 +4,7 @@ window.addEventListener("load", function() {
 
     let numeroDeGenero = queryString.get("idGenre"); /*define que modificar*/
 
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + numeroDeGenero) /*busca la url del API*/
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + numeroDeGenero)
     
 
     .then(function(response) { 
@@ -24,7 +24,7 @@ window.addEventListener("load", function() {
 
         document.querySelector(".position").innerHTML = `<img  id="foto-perfil" src="` + imagen +`" alt="foto de` + " " + nombre +`">`
 
-         document.querySelector(".tituloPrincipal").innerHTML += nombre
+        document.querySelector(".tituloPrincipal").innerHTML += nombre
 
 
         fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + numeroDeGenero + "/artists")
@@ -42,13 +42,13 @@ window.addEventListener("load", function() {
                 let artista = artistas[i]
                 let nombre = artista.name
                 let id = artista.id
-                let imagen = artista.picture
+                let imagenArtista = artista.picture
                 document.querySelector(".topArtistas").innerHTML += `<section>
                         
                     <article class="conteo" >`  +`
-                        
-                    <a href="artista.html?idArtist=`+ id +`">` + nombre +`</a>
-                        
+                    <img id="fotoDeArtista" src ="` +imagenArtista+ `">  
+                    <a href="artista.html?idArtist=`+ id +`">` + nombre + `</a> 
+  
                     </article></section>`
                         
             }
